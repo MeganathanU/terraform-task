@@ -34,6 +34,6 @@ variable "instance_count" {
     dev  = 1
     test = 1
     prod = 2
-   }
- }
+    }
+  }
 }
