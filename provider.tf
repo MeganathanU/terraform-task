@@ -35,5 +35,10 @@ variable "instance_count" {
     dev  = 1
     test = 1
     prod = 2
+    }
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 8bf253d97293e3b76e29b779b62cffccd824cee2
