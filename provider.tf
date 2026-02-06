@@ -10,6 +10,7 @@ terraform {
 
 provider "aws" {
   region = var.aws_region
+  }
 }
 
 variable "aws_region" {
@@ -34,10 +35,5 @@ variable "instance_count" {
     dev  = 1
     test = 1
     prod = 2
-  }
-}
-
-output "instance_ips" {
-  value = aws_instance.app[*].public_ip
   }
 }
