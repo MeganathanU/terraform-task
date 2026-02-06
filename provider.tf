@@ -34,10 +34,6 @@ variable "instance_count" {
     dev  = 1
     test = 1
     prod = 2
-  }
-}
-
-output "instance_ips" {
-  value = aws_instance.app[*].public_ip
-  }
+   }
+ }
 }
